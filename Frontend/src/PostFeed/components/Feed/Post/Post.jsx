@@ -3,7 +3,7 @@ import "./Post.css";
 import React from "react";
 import { MoreVert, PinDropSharp } from "@mui/icons-material";
 
-import img1 from "../FeedPeopleImages/4.jpg";
+import img1 from "../FeedPeopleImages/1.jpg";
 
 export default function Post(props) {
   return (
