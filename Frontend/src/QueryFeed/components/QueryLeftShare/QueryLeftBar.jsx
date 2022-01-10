@@ -27,7 +27,8 @@ const QueryLeftBar = () => {
             <QueryLeftBarListItems ListItemText="How to send data using ejs ?"/>
             <QueryLeftBarListItems ListItemText="Are Java and JavaScript Same ?"/>
             <QueryLeftBarListItems ListItemText="Django not working!"/>
-            {/* <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/>
+            <QueryLeftBarListItems ListItemText="How to connect Api with backend ?"/>
+            <QueryLeftBarListItems ListItemText="React npm start not working !"/>
             <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/>
             <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/>
             <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/>
@@ -37,7 +38,6 @@ const QueryLeftBar = () => {
             <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/>
             <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/>
             <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/>
-            <QueryLeftBarListItems ListItemText="How to connect to AWS services!"/> */}
           </div>
         </div>
       </div>
