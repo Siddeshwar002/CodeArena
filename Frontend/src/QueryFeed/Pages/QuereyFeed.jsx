@@ -6,6 +6,7 @@ import "./QueryFeed.css";
 
 import QueryShare from "../components/QueryShare/QueryShare";
 import QueryLeftBar from "../components/QueryLeftShare/QueryLeftBar";
+import QueryRightShare from "../components/QueryRightShare/QueryRightShare";
 const QueryFeed = () => {
   return (
     <React.Fragment>
@@ -23,7 +24,9 @@ const QueryFeed = () => {
         </div>
 
         {/* RIGHTBAR */}
-        <div class="QueryRightBar"></div>
+        <div class="QueryRightBar">
+          <QueryRightShare/>
+        </div>
       </div>
     </React.Fragment>
   );
