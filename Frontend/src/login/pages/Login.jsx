@@ -18,21 +18,23 @@ const Login = () => {
     <div className="LoginModalStyle">
       <div class={toggle ? "cont s--signup" : "cont"}>
         <div class="form sign-in">
-          <h2>
-            <b>Welcome</b>
+          <h2 className="LoginHeader">
+            <p>WELCOME</p>
           </h2>
-          <label>
+          <label className="Login_Email">
             <span className="FormLables">Email</span>
             <input className="LoginInputs Email" type="email" />
           </label>
-          <label>
+          <label className="Login_Password">
             <span className="FormLables">Password</span>
             <input className="LoginInputs" type="password" />
           </label>
           <p class="forgot-pass  FormLables">Forgot password?</p>
-          <button type="button" class="submit">
-            Sign In
-          </button>
+          <div className="SignInBTN">
+            <button type="button" class="submit">
+              Sign Up
+            </button>
+          </div>
         </div>
 
         <div class="sub-cont">
@@ -41,12 +43,12 @@ const Login = () => {
               <p>Don't have an account? Please Sign up!</p>
             </div>
             <div class="img__text m--in">
-              <p>If you already has an account, just sign in.</p>
+              <p>If you already have an account, just sign in.</p>
             </div>
 
             <div class="SwitchStyle">
               <Button href="/" onClick={ToggleHandler} class="SwitchStyle">
-                Sign Up
+                {toggle ? "Sign In" : "Sign Up"}
               </Button>
             </div>
           </div>
@@ -55,28 +57,32 @@ const Login = () => {
             class="form sign-up"
             style={{ width: toggle ? "700px" : "700px" }}
           >
-            <h2>
-              <b>Create your Account</b>
+            <h2 className="SignUpHeader">
+              <b>CREATE YOUR ACCOUNT</b>
             </h2>
-            <label>
+            <label className="SignUp_Name">
               <span className="FormLables">Name</span>
               <input className="LoginInputs" type="text" />
             </label>
-            <label>
+            <label className="SignUp_Email">
               <span className="FormLables">Email</span>
               <input className="LoginInputs" type="email" />
             </label>
-            <label>
-              <span className="FormLables">Password</span>
-              <input className="LoginInputs" type="password" />
-            </label>
-            <label>
-              <span className="FormLables">Phone</span>
-              <input className="LoginInputs" type="text" />
-            </label>
-            <button type="button" class="submit">
-              Sign Up
-            </button>
+            <div className="Signup_Password_Phone">
+              <label className="SignUp_Password">
+                <span className="FormLables">Password</span>
+                <input className="LoginInputs" type="password" />
+              </label>
+              <label className="SignUp_Phone">
+                <span className="FormLables">Phone</span>
+                <input className="LoginInputs" type="text" />
+              </label>
+            </div>
+            <div className="SignUpBTN">
+              <button type="button" class="submit">
+                Sign Up
+              </button>
+            </div>
           </div>
         </div>
       </div>
