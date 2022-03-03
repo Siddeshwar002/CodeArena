@@ -1,0 +1,326 @@
+.ChatMainElement {
+    background-color: black;
+    height: 633px;
+    width: 100%;
+}
+
+/*****************************************/
+
+.ChatSubElement {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    box-shadow: 0 15px 15px -10px #ff0000;
+}
+
+.ChatLeftMainBar {
+    margin-left: 200px;
+    /* background-color: rgb(253, 155, 0); */
+    height: 600px;
+    width: 300px;
+    /* box-shadow: 0 0 5px 5px #ff0000; */
+    /* box-shadow: 0 -8px 5px -8px #ff0000; */
+    /* box-shadow: -15px 0 2px -8px #ff0000; */
+
+}
+
+.ChatRightMainBar {
+    margin-left: 30px;
+    /* background-color: rgb(0, 255, 85); */
+    height: 600px;
+    width: 800px;
+    /* box-shadow: 0 0 15px 10px #ff0000; */
+
+}
+
+/*****************************************/
+
+.ChatLeftMainBarHeader {
+    background-color: rgb(255, 0, 0);
+    color: #000000;
+    height: 50px;
+    margin-bottom: 10px;
+    /* box-shadow: 0 10px 5px -5px rgb(255, 0, 0); */
+}
+
+.ChatLeftMainBarHeaderText {
+    font-weight: 900;
+    letter-spacing: 4px;
+    padding-top: 5px;
+    font-size: 23px;
+    font-family: 'Montserrat',
+        sans-serif;
+    text-align: center;
+}
+
+/****************************************************/
+
+.ChatRightMainBarHeader {
+    display: flex;
+    background-color: black;
+    color: #ff0000;
+    height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 5px -5px rgb(255, 0, 0);
+}
+
+.ChatRightMainBarHeaderText {
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-top: 13px;
+    font-size: 18px;
+    font-family: 'Montserrat',
+        sans-serif;
+    /* text-align: center; */
+    padding-left: 10px;
+}
+
+/*********SCROLL LEFT BAR  1 ==> List Items *************/
+
+.ChatLeftMainBarListScrollbar {
+    /* margin-left: 30px; */
+    /* float: left; */
+    height: 530px;
+    /* width: 730px; */
+    background: #000000;
+    overflow-y: scroll;
+    /* margin-bottom: 25px; */
+}
+
+.ChatLeftMainBarListSrollforce-overflow {
+    min-height: fit-content;
+}
+
+
+#style-4::-webkit-ChatLeftMainBarListScrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+}
+
+#style-4::-webkit-ChatLeftMainBarListScrollbar {
+    width: 2px;
+    background-color: #000000;
+}
+
+#style-4::-webkit-ChatLeftMainBarListScrollbar-thumb {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+/******************************************************/
+.ChatMessages {
+    width: 200px;
+    /* height: 100px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    font-weight: 900;
+    font-family: 'Montserrat',
+        sans-serif;
+    color: white; */
+}
+
+.SentMessage {
+    right: 100%;
+}
+
+.ChatMessages {
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    width: 400px;
+    min-height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0 8px 5px -5px rgb(255, 0, 0);
+    color: rgb(0, 0, 0)
+}
+
+.ChatMessagesText {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 900;
+
+}
+
+/*********SCROLL RIGHT BAR  1 ==> List Items *************/
+.ChatRightMainBarListScrollbar {
+    /* margin-left: 30px; */
+    /* float: left; */
+    height: 450px;
+    /* width: 730px; */
+    background: #000000;
+    overflow-y: scroll;
+    /* margin-bottom: 25px; */
+}
+
+.ChatRightMainBarListScrollbarforce-overflow {
+    min-height: fit-content;
+}
+
+
+#style-4::-webkit-ChatRightMainBarListScrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+}
+
+#style-4::-webkit-ChatRightMainBarListScrollbar {
+    width: 2px;
+    background-color: #000000;
+}
+
+#style-4::-webkit-ChatRightMainBarListScrollbar-thumb {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+/***************************************************/
+
+.ChatRightMainBarFoot {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    display: flex;
+}
+
+.FootInputMessage {
+    padding-top: 20px;
+}
+
+.MessageInputs {
+    background-color: #ff0000;
+    border-radius: 20px;
+    font-weight: 900;
+    font-family: 'Montserrat',
+        sans-serif;
+    width: 700px;
+    height: 60px;
+}
+
+.MessageInputs::placeholder {
+    color: #000000;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.FootInputMessageSendBTN {
+    color: #ff0000;
+}
+
+.FootInputMessageSendBTN .SendBTN {
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.FootInputMessageSendBTN:hover {
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+
+/***************************************************/
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message .messageText {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.message.sol {
+    text-align: left;
+}
+
+.message.sag {
+    text-align: right;
+}
+
+.message .messageText {
+    background-color: #FF0000;
+    vertical-align: text-top;
+    display: inline-block;
+    /* position: relative; */
+    line-height: 20px;
+    max-width: 365px;
+    min-height: 40px;
+    color: #000000;
+    padding: 15px;
+
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 900;
+}
+
+.message.left .userPortrait,
+.message.sag .messageText {
+    border-radius: 15px 0 0 15px;
+}
+
+.message.sag .userPortrait,
+.message.sol .messageText {
+    border-radius: 0 20px 20px 0;
+}
+
+.message.mtLine.sol .messageText {
+    border-radius: 0 15px 15px 0;
+}
+
+.message.mtLine.sag .messageText {
+    border-radius: 20px 0 0 20px;
+}
+
+
+/* 
+.message .messageText:before {
+    border-color: transparent #f00000;
+    border-style: solid;
+    position: absolute;
+    border-width: 0;
+    display: block;
+    content: "";
+    z-index: 1;
+} */
+
+
+
+/* .message.sol .messageText:before {
+    border-width: 0 10px 10px 0;
+    left: -10px;
+    top: 0;
+} */
+
+/* .message.sag .messageText:before {
+    border-width: 10px 0 0 10px;
+    right: -10px;
+    top: 30px;
+} */
+
+
+.message .messageText:after {
+    content: attr(data-time);
+    color: rgba(255, 255, 255, 0.5);
+    /* position: absolute; */
+    line-height: 20px;
+    display: block;
+    bottom: 2px;
+    z-index: 1;
+}
+
+.message.sol .messageText:after {
+    margin-left: 5px;
+    /* left: 100%; */
+}
+
+.message.sag .messageText:after {
+    margin-right: 5px;
+    /* right: 90%; */
+}
