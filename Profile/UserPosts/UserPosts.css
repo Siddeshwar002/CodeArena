@@ -1,0 +1,203 @@
+.UsersPostMain {
+    margin-left: 18.5%;
+    margin-top: 15%;
+    background-color: black;
+    width: 500px;
+    max-height: 600px;
+    font-family: 'Montserrat',
+        sans-serif;
+    box-shadow: 0 0 15px 3px #ff0000;
+}
+
+.PostHead {
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+
+.PostHead .shareInput p.MainTitle {
+    margin-bottom: 1%;
+}
+
+.PostHead .shareInput p.SubTitle {
+    margin-top: 1%;
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+
+/*****************/
+.PostBody {
+    max-height: 480px;
+    /* background-color: rgb(15, 206, 117); */
+}
+
+.PostBodyImg {
+    /* background-color: blue; */
+    /* height: 400px; */
+    /* margin-top: 5px; */
+    text-align: center;
+}
+
+/* .PostBodyImg img {
+    width: 500px;
+    height: 300px;
+} */
+
+/* 4 : 3 Image Ratio */
+
+.PostBodyDescription {
+    max-height: 70px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.PostBodyDescriptionText {
+    color: #ff0000;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* padding-top: 10px; */
+}
+
+
+
+.PostFoot {
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* .PostHead .shareWrapper {
+    padding: 10px;
+} */
+
+
+.PostHead .shareTop {
+    display: flex;
+    padding-top: 10px;
+}
+
+.PostHead .shareProfileImg {
+    margin-left: 3%;
+}
+
+.PostHead .shareProfileImg img {
+    /* margin-left: 10%; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.PostHead .shareInput {
+    margin-left: 3%;
+    margin-top: 1%;
+    width: max-content;
+    /* height: 40px; */
+    font-weight: 600;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat',
+        sans-serif;
+    /* background-color: rgb(0, 204, 255); */
+
+}
+
+
+.PostHead .shareInput:focus {
+    outline: none;
+}
+
+.PostLikeCmt {
+    display: flex;
+
+}
+
+.PostLike i:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.PostLike i {
+    color: #ff0000;
+    transition: all 0.5s;
+
+}
+
+.PostLike {
+    margin-left: 3%;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: flex;
+    width: 300px;
+    /* background-color: rgb(0, 162, 255); */
+
+}
+
+.PostLikeText {
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+
+.PostCmt {
+    /* background-color: aqua; */
+    margin-left: 365px;
+    color: rgb(255, 255, 255);
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+}
+
+.PostCmt i {
+    color: #ff0000;
+    transition: all 0.5s;
+}
+
+.PostCmt i:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.PostCmtTxt {
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+/*********SCROLL BAR  1 ==> List Items *************/
+.PostBodyDescriptionScrollbar {
+    /* margin-left: 30px; */
+    /* float: left; */
+    max-height: 70px;
+    /* width: 730px; */
+    /* background: #3bd186; */
+    overflow-y: scroll;
+    /* margin-bottom: 25px; */
+}
+
+.PostBodyDescriptionForce-overflow {
+    min-height: fit-content;
+}
+
+
+#style-4::-webkit-PostBodyDescriptionScrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #000000;
+}
+
+#style-4::-webkit-PostBodyDescriptionScrollbar {
+    width: 4px;
+    background-color: #000000;
+}
+
+#style-4::-webkit-PostBodyDescriptionScrollbar-thumb {
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+}
